@@ -5,17 +5,13 @@ public class Program
 {
     static void Main()
     {
-        decimal length = 0;
-        decimal width = 0;
-        decimal height = 0;
-
         Console.WriteLine("Welcome to Grand Circus' Room Detail Generator!");
         Console.Write("Enter length: ");
-        length = decimal.Parse(Console.ReadLine());
+        decimal length = decimal.Parse(Console.ReadLine());
         Console.Write("Enter width: ");
-        width = decimal.Parse(Console.ReadLine());
+        decimal width = decimal.Parse(Console.ReadLine());
         Console.Write("Enter height: ");
-        height = decimal.Parse(Console.ReadLine());
+        decimal height = decimal.Parse(Console.ReadLine());
 
         decimal area = length * width;
         decimal perimeter = 2 * (length + width);
