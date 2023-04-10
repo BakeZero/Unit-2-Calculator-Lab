@@ -8,14 +8,12 @@ public class Program
         decimal length = 0;
         decimal width = 0;
         decimal height = 0;
-        Console.WriteLine("Welcome to Grand Circus' Room Detail Generator!");
 
+        Console.WriteLine("Welcome to Grand Circus' Room Detail Generator!");
         Console.Write("Enter length: ");
         length = decimal.Parse(Console.ReadLine());
-
         Console.Write("Enter width: ");
         width = decimal.Parse(Console.ReadLine());
-
         Console.Write("Enter height: ");
         height = decimal.Parse(Console.ReadLine());
 
@@ -39,6 +37,5 @@ public class Program
 
         Console.WriteLine($"Calculated: This is a {roomSize}-sized room.");
         Console.WriteLine("Thank you for using the Room Detail Generator!");
-
     }
 }
